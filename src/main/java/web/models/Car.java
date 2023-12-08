@@ -1,7 +1,10 @@
 package web.models;
 
+import org.springframework.stereotype.Repository;
+
 import java.util.Objects;
 
+@Repository
 public class Car {
     private int id;
     private String model;
