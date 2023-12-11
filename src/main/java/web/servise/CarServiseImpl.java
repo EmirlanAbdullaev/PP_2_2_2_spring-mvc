@@ -21,7 +21,7 @@ public class CarServiseImpl implements CarServise {
     }
 
     @Override
-    public List<Car> index(int count) {
+    public List<Car> getCars(int count) {
         return cars.stream().limit(count).toList();
     }
 
